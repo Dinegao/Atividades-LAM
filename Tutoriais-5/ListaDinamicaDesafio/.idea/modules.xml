@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ListaDinamicaDesafio.iml" filepath="$PROJECT_DIR$/ListaDinamicaDesafio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/ListaDinamicaDesafio-app.iml" filepath="$PROJECT_DIR$/app/ListaDinamicaDesafio-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutoriais-5-ListaDinamicaDesafio.iml" filepath="$PROJECT_DIR$/Tutoriais-5-ListaDinamicaDesafio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
