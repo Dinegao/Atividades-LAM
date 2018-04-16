@@ -1,10 +1,10 @@
-package com.example.alunos.listadinamica.model;
-
+package com.example.alunos.listadinamicadesafio.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Pessoa implements Parcelable{
+public class Pessoa implements Parcelable {
+
     private String nome;
     private String telefone;
     private int imagem;
@@ -39,12 +39,11 @@ public class Pessoa implements Parcelable{
         this.imagem = id;
     }
 
-    protected  Pessoa(Parcel in){
+    protected Pessoa(Parcel in) {
         nome = in.readString();
         telefone = in.readString();
         imagem = in.readInt();
     }
-
 
     @Override
     public int describeContents(){
@@ -58,7 +57,7 @@ public class Pessoa implements Parcelable{
         dest.writeInt(imagem);
     }
 
-    @SuppressWarnings("unused")
+    @SuppressWarnings ("unused")
     public static final Parcelable.Creator<Pessoa> CREATOR =
             new Parcelable.Creator<Pessoa>(){
                 @Override
@@ -71,5 +70,4 @@ public class Pessoa implements Parcelable{
                     return new Pessoa[size];
                 }
             };
-
 }
