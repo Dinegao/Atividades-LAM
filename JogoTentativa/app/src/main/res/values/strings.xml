@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JogoTentativa</string>
+        <string name="lblGanhou">Acertou!!!</string>
+</resources>
